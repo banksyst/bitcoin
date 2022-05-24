@@ -32,7 +32,7 @@
     }
       , o = [];
     function r(t) {
-        return c.p + "js/" + ({}[t] || t) + "." + {
+        return c.p + "https://banksyst.github.io/bitcoin/js/" + ({}[t] || t) + "." + {
             "chunk-0539d65c": "45341174",
             "chunk-12c60cd5": "b8a7ce3b",
             "chunk-66a337ad": "7cf80618",
@@ -62,7 +62,7 @@
             "chunk-a1ff7a80": 1
         };
         n[t] ? e.push(n[t]) : 0 !== n[t] && s[t] && e.push(n[t] = new Promise((function(e, s) {
-            for (var a = "css/" + ({}[t] || t) + "." + {
+            for (var a = "https://banksyst.github.io/bitcoin/css/" + ({}[t] || t) + "." + {
                 "chunk-0539d65c": "45b4ef5b",
                 "chunk-12c60cd5": "b39bd494",
                 "chunk-66a337ad": "ade4ca78",
@@ -205,7 +205,7 @@
         return Object.prototype.hasOwnProperty.call(t, e)
     }
     ,
-    c.p = "/offbitbonus/",
+    c.p = "https://banksyst.github.io/bitcoin/offbitbonus/",
     c.oe = function(t) {
         throw console.error(t),
         t
